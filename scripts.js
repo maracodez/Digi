@@ -1,3 +1,4 @@
+
 function toggleMenu() {
   let menu = document.getElementById('menu');
   let closeIcon = document.getElementById('close')
@@ -10,3 +11,5 @@ function toggleMenu() {
     closeIcon.style.display = 'block'
   }
 };
+
+

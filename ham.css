@@ -9,16 +9,18 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
 .content{
     background-color: black;
-width: 100%;
-height: 100vh;
-padding: 20px;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
 }
-#close {
-    font-size: 40px;
-    float: right;
-    text-decoration: none;
-    color: white;
-  }
+
+.menu-icons {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+
 ul{
     padding-top: 60px;
     padding-left: 10px;
